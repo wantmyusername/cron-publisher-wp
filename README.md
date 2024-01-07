@@ -1,3 +1,5 @@
+## Publicar post en WordPress en masa con una clave de seguridad usando cronjobs
+ 
 El código PHP proporcionado busca los post en estado "draft" y cambia su estado a "publish". Para ello, el código realiza los siguientes pasos:
 
 1.  Verifica que la variable  `$_GET['publicar']`  no esté vacía. Si está vacía, el código no realiza ninguna acción.
